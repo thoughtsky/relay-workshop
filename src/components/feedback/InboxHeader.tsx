@@ -14,9 +14,9 @@ export function InboxHeader({ total, newCount, plannedCount }: InboxHeaderProps)
   return (
     <header className="flex items-start justify-between gap-6 border-b border-border bg-surface px-5 py-4">
       <div>
-        <h1 className="text-[22px] font-semibold tracking-tight text-foreground">Feedback inbox</h1>
+        <h1 className="text-[22px] font-semibold tracking-tight text-foreground">Inbox</h1>
         <p className="mt-1 text-[13px] text-muted-foreground">
-          Review and organise feedback from across your customer channels.
+          Keep customer feedback from every channel in one place.
         </p>
       </div>
       <dl className="flex shrink-0 items-center gap-5 pt-1">
